@@ -1,7 +1,24 @@
+.inter-small {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter-big {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 body {
   background-color: hsl(0, 0%, 8%);
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
   display: flex;
   justify-content: center;
@@ -9,7 +26,7 @@ body {
 }
 .background {
   width: 440px;
-  height: 100%;
+  height: 600px;
   background-color: hsl(0, 0%, 12%);
   text-align: center;
   border-radius: 10px;
@@ -17,16 +34,17 @@ body {
 img {
   height: 100px;
   border-radius: 50%;
-  margin: 20px 0 10px 0;
+  margin: 50px 0 0 0;
 }
 .location {
   color: hsl(75, 94%, 57%);
+  margin-top: -10px;
 }
 .btt {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   border-radius: 5px;
-  margin:10px auto;
+  margin:20px auto;
   height: 40px;
   width: 350px;
   display: flex;
